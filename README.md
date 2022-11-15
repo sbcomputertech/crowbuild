@@ -3,6 +3,7 @@
 
 ### usage:
 - clone the source code into a folder
+- change the crow-root path in the `crow.bat` file
 - create a python venv (make sure it is called crow-env): `python -m venv crow-env`
 - add the folder to your PATH (not strictly necessary, but is useful to do)
 - run `crow init` to scaffold a project
