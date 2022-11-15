@@ -1,0 +1,14 @@
+- define a function 'crow_plugin()'
+- make it return a list of 3 strings:
+  - ["build command", "run command", "test command"]
+
+the build command should only compile the project
+set to 'NONE' if this is not available e.g. interpreted languages
+
+the run command will build (if applicable) the project, and run the output.
+
+the test command will obviously run tests on the project
+
+in the plugin function, you can do things like:
+- load commands from a config file e.g. package.json for nodejs
+- fetch dependencies, e.g. pip or node modules

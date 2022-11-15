@@ -1,0 +1,10 @@
+[crow]
+version=@CROW_VERSION
+
+[project]
+name=@PROJECT_NAME
+version=1.0.0
+author=@PROJECT_AUTHOR
+
+[build]
+@BUILD_COMMANDS
