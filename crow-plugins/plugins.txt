@@ -1,2 +1,3 @@
 csharp:msbuild_cs.py
 node-npm:npm.py
+crowsh:shell.py
